@@ -40,7 +40,6 @@ Required Arguments:
 2 - distribution 
 3 - access 
 ```
-<br>
 To mark, use the command `mark [switch-device-id] [1/2/3]` in ONOS CLI <br>
 Example
 `mark of:0000000000000001/2 2`
