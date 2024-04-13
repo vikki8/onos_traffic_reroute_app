@@ -20,7 +20,7 @@ Refer to this guide [here](https://blog.sflow.com/2019/04/prometheus-exporter.ht
 
 ### Step 3: Bring up Mininet/Containernet and connect to ONOS
 You may define your own topology according to your own needs. Connect the switches to your ONOS controller. <br>
-Refer to my other GitHub repo [here](https://github.com/vikki8/SDN_clos_topology_generator), to create a CLOS topology using Containernet.
+Refer to my other GitHub repository [here](https://github.com/vikki8/SDN_clos_topology_generator), to create a CLOS topology using Containernet.
 
 ### Step 4: Compile & install the application
 Refer to the general guide [here](https://wiki.onosproject.org/display/ONOS/Template+Application+Tutorial), clone this repository, compile it with `mvn clean install -DskipTests` then install the `.oar` to ONOS. Activate the app on ONOS with the command `app activate org.foo.app`in ONOS CLI
@@ -59,7 +59,7 @@ Use the command, `onos:cfg set org.foo.app.Foo forwarding 3` in ONOS CLI
 
 ### Step 10: Traffic Generation
 Pump high-load traffic using traffic generation tools such as iperf & scapy. <br>
-Refer to my other GitHub repo [here](https://github.com/vikki8/real_life_traffic_generator), to implement a real-life traffic generation scenario using a real-life traffic flow dataset.
+Refer to my other GitHub repository [here](https://github.com/vikki8/real_life_traffic_generator), to implement a real-life traffic generation scenario using a real-life traffic flow dataset.
 
 ## License
 This project is licensed under the Apache-2 License.
