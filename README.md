@@ -46,7 +46,7 @@ access <br>
 Use the command, `bandwidth layer value` in ONOS CLI
 
 ### Step 8: Set forwarding method
-There are 4 forwarding methods: <be>
+There are 4 forwarding methods: <br>
 0 - Shortest Path forwarding and no rerouting <br>
 1 - Shortest Path forwarding and least utilized path rerouting <br>
 2 - Least utilized path forwarding and rerouting <br>
