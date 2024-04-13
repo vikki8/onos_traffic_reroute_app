@@ -45,12 +45,14 @@ access <br>
 Use the command, `bandwidth layer value` in ONOS CLI
 
 ### Step 8: Set forwarding method
-There are 4 forwarding methods: <br>
+There are 4 forwarding methods: <be>
+`
 0 - Shortest Path forwarding and no rerouting <br>
 1 - Shortest Path forwarding and least utilized path rerouting <br>
 2 - Least utilized path forwarding and rerouting <br>
-3 - Round Robin path forwarding and Least utilized path rerouting <br>
-Use the command, 'onos:cfg set org.foo.app.Foo forwarding 3' in ONOS CLI
+3 - Round Robin path forwarding and Least utilized path rerouting <be>
+`
+Use the command, `onos:cfg set org.foo.app.Foo forwarding 3` in ONOS CLI
 
 ### Step 9: Traffic Generation
 Pump high-load traffic using traffic generation tools such as iperf & scapy. <br>
