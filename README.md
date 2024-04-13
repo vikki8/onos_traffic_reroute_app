@@ -16,10 +16,10 @@ The primary topology examined in this project is the campus LAN architecture, wh
 Configure the polling & sampling rate to 10 & 10 in sflow.py script
 
 ### Step 2: Configure Prometheus
-Refer to this guide [here] (https://blog.sflow.com/2019/04/prometheus-exporter.html), to define a metrics "scraping" job in the Prometheus configuration file, prometheus.yml
+Refer to this guide [here](https://blog.sflow.com/2019/04/prometheus-exporter.html), to define a metrics "scraping" job in the Prometheus configuration file, prometheus.yml
 
 ### Step 3: Compile & install the application
-Refer to the general guide [here] (https://wiki.onosproject.org/display/ONOS/Template+Application+Tutorial), clone this repository, compile it with `mvn clean install -DskipTests` then install the `.oar` to ONOS. Activate the app on ONOS with the command `app activate org.foo.app`.
+Refer to the general guide [here](https://wiki.onosproject.org/display/ONOS/Template+Application+Tutorial), clone this repository, compile it with `mvn clean install -DskipTests` then install the `.oar` to ONOS. Activate the app on ONOS with the command `app activate org.foo.app`.
 
 ### Step 4: Install supporting ONOS application
 Activate the default OpenFlow app to enable Southbound communication from ONOS to OvS. Use the command 'app activate org.onosproject.openflow'
