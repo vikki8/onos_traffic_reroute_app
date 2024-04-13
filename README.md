@@ -47,8 +47,8 @@ Example
 ### Step 8: Set link bandwidth for the Core/Distribution Layer
 By default, all links are set to 10Mbits <br>
 Link bandwidth **MUST** follow the value set during Mininet network emulation. <br>
-Use the command, `bandwidth [core/distribution/access] value` in ONOS CLI
-Example:
+Use the command, `bandwidth [core/distribution/access] value` in ONOS CLI <br>
+Example: <br>
 `bandwidth core 30`
 
 ### Step 9: Set forwarding method
@@ -61,7 +61,7 @@ There are 4 forwarding methods:
 3 - Round Robin path forwarding and Least utilized path rerouting 
 ```
 Use the command, `onos:cfg set org.foo.app.Foo forwarding [0/1/2/3]` in ONOS CLI <br>
-Example:
+Example: <br>
 `onos:cfg set org.foo.app.Foo forwarding 3`
 
 
