@@ -25,35 +25,35 @@ Refer to the general guide [here](https://wiki.onosproject.org/display/ONOS/Temp
 Activate the default OpenFlow app to enable Southbound communication from ONOS to OvS. Use the command 'app activate org.onosproject.openflow'
 
 ### Step 5: Enable/Disable Campus LAN Path Filtering
-Default is TRUE
+Default is TRUE <br>
 If you intend to disable this feature, use the command 'onos:cfg set org.foo.app.Foo campus false'
 
 ### Step 6: Mark Core/Distribution switches (Optional if Step 5 feature is disabled)
-By default, all switches are marked as access switches
-1 - core
-2 - distribution
-3 - access
+By default, all switches are marked as access switches <br>
+1 - core <br> 
+2 - distribution <br>
+3 - access <br>
 To mark, use the command 'mark <devide-id> 2'
 
 ### Step 7: Set link bandwidth for the Core/Distribution Layer
-By default, all links are set to 10Mbits
-Link bandwidth **MUST** follow the value set during Mininet network emulation.
-Layer:
-core
-distribution
-access
+By default, all links are set to 10Mbits <br>
+Link bandwidth **MUST** follow the value set during Mininet network emulation. <br>
+Layer: <br>
+core <br>
+distribution <br>
+access <br>
 Use the command, 'bandwidth <layer> <value>'
 
 ### Step 8: Set forwarding method
-There are 4 forwarding methods:
-0 - Shortest Path forwarding and no rerouting
-1 - Shortest Path forwarding and least utilized path rerouting
-2 - Least utilized path forwarding and rerouting
-3 - Round Robin path forwarding and Least utilized path rerouting
+There are 4 forwarding methods: <br>
+0 - Shortest Path forwarding and no rerouting <br>
+1 - Shortest Path forwarding and least utilized path rerouting <br>
+2 - Least utilized path forwarding and rerouting <br>
+3 - Round Robin path forwarding and Least utilized path rerouting <br>
 Use the command, 'onos:cfg set org.foo.app.Foo forwarding 3'
 
 ### Step 9: Traffic Generation
-Pump high-load traffic using traffic generation tools such as iperf & scapy. 
+Pump high-load traffic using traffic generation tools such as iperf & scapy. <br>
 Refer to my other GitHub repo [here](https://github.com/vikki8/real_life_traffic_generator), to implement a real-life traffic generation scenario using a real-life traffic flow dataset.
 
 ## License
