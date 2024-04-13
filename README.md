@@ -29,7 +29,8 @@ Default is TRUE <br>
 If you intend to disable this feature, use the command `onos:cfg set org.foo.app.Foo campus false` in ONOS CLI
 
 ### Step 6: Mark Core/Distribution switches (Optional if Step 5 feature is disabled)
-By default, all switches are marked as access switches <br>
+By default, all switches are marked as access switches <be>
+Types:
 1 - core <br> 
 2 - distribution <br>
 3 - access <br>
@@ -38,7 +39,7 @@ To mark, use the command `mark switch-device-id 2` in ONOS CLI
 ### Step 7: Set link bandwidth for the Core/Distribution Layer
 By default, all links are set to 10Mbits <br>
 Link bandwidth **MUST** follow the value set during Mininet network emulation. <br>
-Layer: <br>
+Layers: <br>
 core <br>
 distribution <br>
 access <br>
@@ -46,12 +47,10 @@ Use the command, `bandwidth layer value` in ONOS CLI
 
 ### Step 8: Set forwarding method
 There are 4 forwarding methods: <be>
-`
 0 - Shortest Path forwarding and no rerouting <br>
 1 - Shortest Path forwarding and least utilized path rerouting <br>
 2 - Least utilized path forwarding and rerouting <br>
-3 - Round Robin path forwarding and Least utilized path rerouting <be>
-`
+3 - Round Robin path forwarding and Least utilized path rerouting <br>
 Use the command, `onos:cfg set org.foo.app.Foo forwarding 3` in ONOS CLI
 
 ### Step 9: Traffic Generation
