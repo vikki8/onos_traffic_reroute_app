@@ -36,11 +36,12 @@ If you intend to disable this feature, use the command `onos:cfg set org.foo.app
 By default, all switches are marked as access switches <br>
 Required Arguments:
 ```
-1 - core <br> 
-2 - distribution <br>
-3 - access <be>
+1 - core 
+2 - distribution 
+3 - access 
 ```
-To mark, use the command `mark [switch-device-id] [1/2/3]` in ONOS CLI
+<br>
+To mark, use the command `mark [switch-device-id] [1/2/3]` in ONOS CLI <br>
 Example
 `mark of:0000000000000001/2 2`
 
@@ -52,13 +53,15 @@ Example:
 `bandwidth core 30`
 
 ### Step 9: Set forwarding method
-There are 4 forwarding methods: <br>
-0 - Shortest Path forwarding and no rerouting <br>
-1 - Shortest Path forwarding and least utilized path rerouting <br>
-2 - Least utilized path forwarding and rerouting <br>
-3 - Round Robin path forwarding and Least utilized path rerouting <be>
-
-Use the command, `onos:cfg set org.foo.app.Foo forwarding [0/1/2/3]` in ONOS CLI
+Required Arguments:
+```
+There are 4 forwarding methods: 
+0 - Shortest Path forwarding and no rerouting 
+1 - Shortest Path forwarding and least utilized path rerouting 
+2 - Least utilized path forwarding and rerouting 
+3 - Round Robin path forwarding and Least utilized path rerouting 
+```
+Use the command, `onos:cfg set org.foo.app.Foo forwarding [0/1/2/3]` in ONOS CLI <br>
 Example:
 `onos:cfg set org.foo.app.Foo forwarding 3`
 
