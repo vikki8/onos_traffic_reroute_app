@@ -33,7 +33,7 @@ By default, all switches are marked as access switches <br>
 1 - core <br> 
 2 - distribution <br>
 3 - access <br>
-To mark, use the command 'mark <devide-id> 2'
+To mark, use the command 'mark switch-device-id 2'
 
 ### Step 7: Set link bandwidth for the Core/Distribution Layer
 By default, all links are set to 10Mbits <br>
@@ -42,7 +42,7 @@ Layer: <br>
 core <br>
 distribution <br>
 access <br>
-Use the command, 'bandwidth <layer> <value>'
+Use the command, 'bandwidth layer value'
 
 ### Step 8: Set forwarding method
 There are 4 forwarding methods: <br>
