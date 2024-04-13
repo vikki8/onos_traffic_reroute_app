@@ -19,7 +19,7 @@ Configure the polling & sampling rate to 10 & 10 in sflow.py script
 Refer to this guide [here](https://blog.sflow.com/2019/04/prometheus-exporter.html), to define a metrics "scraping" job in the Prometheus configuration file, prometheus.yml
 
 ### Step 3: Bring up Mininet/Containernet and connect to ONOS
-You may define your own topology according to your own needs. Connect the switches to your ONOS controller.
+You may define your own topology according to your own needs. Connect the switches to your ONOS controller. <br>
 Refer to my other GitHub repo [here](https://github.com/vikki8/SDN_clos_topology_generator), to create a CLOS topology using Containernet.
 
 ### Step 4: Compile & install the application
